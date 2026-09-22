@@ -45,7 +45,7 @@ public class Category implements Serializable {
         this.name = name;
     }
 
-    public Set<Product> getProducts() {
+    public Set<Product> setProducts() {
         return products;
     }
 
